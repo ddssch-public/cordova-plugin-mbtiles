@@ -7,9 +7,9 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <description>Cordova MBTiles Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,mbtiles</keywords>
-    
+
     <!-- dependency id="org.apache.cordova.file@1" /-->
-    <dependency id="org.apache.cordova.file-transfer" version="0.4.2" />
+<!--    <dependency id="org.apache.cordova.file-transfer" version="1.7.1" />-->
 
     <!-- android -->
     <platform name="android">
@@ -58,9 +58,9 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 	<source-file src="src/wp/TableData.cs"/>
 	<source-file src="src/wp/MBTilesJson.cs"/>
 	<source-file src="src/wp/Database.cs"/>
-	
+
 	<source-file src="src/wp/res/sqlite-wp80-winrt-3080301.zip"/>
-	
+
 	<framework src="src/wp/res/SQLite.winmd" custom="true"/>
 	<framework src="src/wp/res/Newtonsoft.Json.dll" custom="true"/>
 </platform>
@@ -88,7 +88,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <source-file src="src/ios/MBTilesActionsFileImpl.m" />
         <header-file src="src/ios/MBTilesActionsGenImpl.h" />
         <source-file src="src/ios/MBTilesActionsGenImpl.m" />
-        
+
         <framework src="libsqlite3.dylib" />
         <framework src="MobileCoreServices.framework" />
         <framework src="AssetsLibrary.framework" />
