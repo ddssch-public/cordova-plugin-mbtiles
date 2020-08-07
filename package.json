@@ -13,8 +13,5 @@
     "type": "git",
     "url": "https://github.com/ddssch/cordova-plugin-mbtiles"
   },
-  "files": [
-    "www/"
-  ],
   "main": "www/MBTilesPlugin.js"
 }
